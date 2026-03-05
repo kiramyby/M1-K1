@@ -31,6 +31,19 @@ also called *Kiracoon*.
 
 - [ ] AI Bartender - an AI agent
 
+## Roadmap
+
+> Full plan: [`docs/roadmap.md`](docs/roadmap.md)
+
+```
+Phase 0  Scaffold       Monorepo + infra + dev tooling
+Phase 1  Foundation     DB schema + auth + UI shell
+Phase 2  Core — AI      AI Bartender (agent + memory + RAG)     ┐ parallel
+Phase 3  Core — Social  Message Board + Ordering System         ┘
+Phase 4  Atmosphere     Background Music + visual polish
+Phase 5  Ship           Production deploy + analytics + PWA
+```
+
 ## Tech Stack
 
 > Full specification: [`docs/tech-stack.md`](docs/tech-stack.md)
