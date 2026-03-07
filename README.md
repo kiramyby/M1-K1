@@ -44,6 +44,11 @@ Phase 4  Atmosphere     Background Music + visual polish
 Phase 5  Ship           Production deploy + analytics + PWA
 ```
 
+## Design (UI/UX)
+
+- **Interaction shell** (layout, dockable cards, board, island): [`docs/interaction-shell.md`](docs/interaction-shell.md) — reference for Pencil wireframes.
+- **V1 agent actions** (what the bartender can trigger in the UI): [`docs/actions-v1.md`](docs/actions-v1.md)
+
 ## Tech Stack
 
 > Full specification: [`docs/tech-stack.md`](docs/tech-stack.md)
