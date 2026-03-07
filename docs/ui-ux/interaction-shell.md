@@ -76,4 +76,4 @@ Use this when drawing wireframes:
 ## References
 
 - Agent actions that drive this shell: [`docs/actions-v1.md`](./actions-v1.md)
-- Tech stack (frontend, AG-UI): [`docs/tech-stack.md`](./tech-stack.md)
+- Tech stack (frontend, AG-UI): [`docs/tech-stack.md`](../tech-stack.md)

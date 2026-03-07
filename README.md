@@ -46,8 +46,8 @@ Phase 5  Ship           Production deploy + analytics + PWA
 
 ## Design (UI/UX)
 
-- **Interaction shell** (layout, dockable cards, board, island): [`docs/interaction-shell.md`](docs/interaction-shell.md) — reference for Pencil wireframes.
-- **V1 agent actions** (what the bartender can trigger in the UI): [`docs/actions-v1.md`](docs/actions-v1.md)
+- **Interaction shell** (layout, dockable cards, board, island): [`docs/ui-ux/interaction-shell.md`](docs/ui-ux/interaction-shell.md) — reference for Pencil wireframes.
+- **V1 agent actions** (what the bartender can trigger in the UI): [`docs/ui-ux/actions-v1.md`](docs/ui-ux/actions-v1.md)
 
 ## Tech Stack
 
