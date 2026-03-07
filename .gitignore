@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build & output
+dist/
+build/
+.vite/
+.turbo/
+*.tsbuildinfo
+
+# Environment (keep .env.example)
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE / editor
+.idea/
+*.swp
+*.swo
+*~
+
+# Test & coverage
+coverage/
+.nyc_output/
+
+# Deno
+# (deno.lock is usually committed; cache lives outside repo)
+
+# Local / misc
+*.local
+.cache/
