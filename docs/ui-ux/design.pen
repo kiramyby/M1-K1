@@ -127,7 +127,8 @@
               "content": "晚上好，欢迎来到M1-K1。\n今晚想喝点什么？",
               "lineHeight": 1.5,
               "fontFamily": "Inter",
-              "fontSize": 14
+              "fontSize": 14,
+              "fontWeight": "normal"
             }
           ]
         }
@@ -171,7 +172,8 @@
               "content": "有什么推荐的吗？",
               "lineHeight": 1.5,
               "fontFamily": "Inter",
-              "fontSize": 14
+              "fontSize": 14,
+              "fontWeight": "normal"
             }
           ]
         }
@@ -248,7 +250,8 @@
               "fill": "$text-muted",
               "content": "说点什么...",
               "fontFamily": "Inter",
-              "fontSize": 14
+              "fontSize": 14,
+              "fontWeight": "normal"
             }
           ]
         },
@@ -387,7 +390,8 @@
               "fill": "$text-primary",
               "content": "酒单",
               "fontFamily": "Playfair Display",
-              "fontSize": 18
+              "fontSize": 18,
+              "fontWeight": "normal"
             },
             {
               "type": "frame",
@@ -492,7 +496,8 @@
               "fill": "$text-muted",
               "content": "Gin · Campari · Sweet Vermouth",
               "fontFamily": "Inter",
-              "fontSize": 12
+              "fontSize": 12,
+              "fontWeight": "normal"
             }
           ]
         },
@@ -563,7 +568,8 @@
               "fill": "$text-primary",
               "content": "Negroni",
               "fontFamily": "Inter",
-              "fontSize": 14
+              "fontSize": 14,
+              "fontWeight": "normal"
             }
           ]
         },
@@ -634,7 +640,8 @@
               "fill": "$text-muted",
               "content": "2min",
               "fontFamily": "Inter",
-              "fontSize": 10
+              "fontSize": 10,
+              "fontWeight": "normal"
             }
           ]
         },
@@ -648,7 +655,8 @@
           "content": "今晚的Mojito绝了🍸",
           "lineHeight": 1.4,
           "fontFamily": "Inter",
-          "fontSize": 12
+          "fontSize": 12,
+          "fontWeight": "normal"
         }
       ]
     },
@@ -3066,6 +3074,7 @@
               "content": "Mik7ra",
               "fontFamily": "Playfair Display",
               "fontSize": 22,
+              "fontWeight": "normal",
               "letterSpacing": 2
             }
           ]
@@ -5697,6 +5706,7 @@
               "content": "Mik7ra",
               "fontFamily": "Playfair Display",
               "fontSize": 22,
+              "fontWeight": "normal",
               "letterSpacing": 2
             }
           ]
@@ -8372,6 +8382,7 @@
               "content": "Mik7ra",
               "fontFamily": "Playfair Display",
               "fontSize": 22,
+              "fontWeight": "normal",
               "letterSpacing": 2
             }
           ]
@@ -11019,6 +11030,7 @@
               "content": "Mik7ra",
               "fontFamily": "Playfair Display",
               "fontSize": 22,
+              "fontWeight": "normal",
               "letterSpacing": 2
             }
           ]
@@ -13781,6 +13793,7 @@
               "content": "Mik7ra",
               "fontFamily": "Playfair Display",
               "fontSize": 22,
+              "fontWeight": "normal",
               "letterSpacing": 2
             }
           ]
@@ -14044,143 +14057,85 @@
           "y": 200,
           "width": 340,
           "name": "tPnl",
-          "children": [
-            {
-              "id": "8d6DZ",
-              "type": "ref",
-              "ref": "8d6DZ",
-              "children": [
-                {
-                  "id": "8CQKg",
-                  "type": "ref",
-                  "ref": "8CQKg",
-                  "content": "我的账单"
-                },
-                {
-                  "id": "cIr5z",
-                  "type": "ref",
-                  "ref": "cIr5z",
-                  "children": [
-                    {
-                      "id": "gRKJl",
-                      "type": "ref",
-                      "ref": "gRKJl"
-                    }
-                  ]
-                }
-              ]
+          "descendants": {
+            "8CQKg": {
+              "content": "我的账单"
             },
-            {
+            "VkRMh": {
               "type": "frame",
-              "id": "0ga0J",
-              "name": "tab-content",
+              "id": "Ucmve",
+              "name": "tab-items",
               "width": "fill_container",
               "layout": "vertical",
+              "gap": 4,
+              "padding": 8,
               "children": [
                 {
-                  "type": "frame",
-                  "id": "yFkUd",
-                  "name": "tab-items",
-                  "width": "fill_container",
-                  "layout": "vertical",
-                  "padding": [
-                    8,
-                    0
-                  ],
-                  "children": [
-                    {
-                      "id": "jmdxp",
-                      "type": "ref",
-                      "ref": "J9prQ",
-                      "name": "t1",
-                      "children": [
-                        {
-                          "id": "yHfWt",
-                          "type": "ref",
-                          "ref": "yHfWt",
-                          "children": [
-                            {
-                              "id": "Mhywc",
-                              "type": "ref",
-                              "ref": "Mhywc",
-                              "children": [
-                                {
-                                  "id": "pbgPQ",
-                                  "type": "ref",
-                                  "ref": "pbgPQ"
-                                }
-                              ]
-                            },
-                            {
-                              "id": "Gj5gR",
-                              "type": "ref",
-                              "ref": "Gj5gR"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "AZgjY",
-                          "type": "ref",
-                          "ref": "AZgjY"
-                        }
-                      ]
+                  "id": "2rhj1",
+                  "type": "ref",
+                  "ref": "J9prQ",
+                  "name": "tab-item-1",
+                  "descendants": {
+                    "pbgPQ": {
+                      "content": "2"
                     },
-                    {
-                      "id": "6z05S",
-                      "type": "ref",
-                      "ref": "J9prQ",
-                      "name": "t2",
-                      "children": [
-                        {
-                          "id": "yHfWt",
-                          "type": "ref",
-                          "ref": "yHfWt",
-                          "children": [
-                            {
-                              "id": "Mhywc",
-                              "type": "ref",
-                              "ref": "Mhywc",
-                              "children": [
-                                {
-                                  "id": "pbgPQ",
-                                  "type": "ref",
-                                  "ref": "pbgPQ",
-                                  "content": "2"
-                                }
-                              ]
-                            },
-                            {
-                              "id": "Gj5gR",
-                              "type": "ref",
-                              "ref": "Gj5gR",
-                              "content": "Whiskey Sour"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "AZgjY",
-                          "type": "ref",
-                          "ref": "AZgjY",
-                          "content": "¥144"
-                        }
-                      ]
+                    "Gj5gR": {
+                      "content": "Negroni"
+                    },
+                    "AZgjY": {
+                      "content": "¥136"
                     }
-                  ]
+                  }
+                },
+                {
+                  "id": "XQfkw",
+                  "type": "ref",
+                  "ref": "J9prQ",
+                  "name": "tab-item-2",
+                  "descendants": {
+                    "pbgPQ": {
+                      "content": "1"
+                    },
+                    "Gj5gR": {
+                      "content": "Whiskey Sour"
+                    },
+                    "AZgjY": {
+                      "content": "¥72"
+                    }
+                  }
+                },
+                {
+                  "id": "fx2J2",
+                  "type": "ref",
+                  "ref": "J9prQ",
+                  "name": "tab-item-3",
+                  "descendants": {
+                    "pbgPQ": {
+                      "content": "1"
+                    },
+                    "Gj5gR": {
+                      "content": "Mojito"
+                    },
+                    "AZgjY": {
+                      "content": "¥58"
+                    }
+                  }
                 },
                 {
                   "type": "frame",
-                  "id": "9xWo1",
-                  "name": "tab-footer",
+                  "id": "QYTO7",
+                  "name": "divider",
                   "width": "fill_container",
-                  "height": 44,
-                  "stroke": {
-                    "thickness": 1,
-                    "fill": "$border-subtle"
-                  },
+                  "height": 1,
+                  "fill": "$border-subtle"
+                },
+                {
+                  "type": "frame",
+                  "id": "C7ZWa",
+                  "name": "total-row",
+                  "width": "fill_container",
                   "padding": [
-                    12,
-                    12,
-                    8,
+                    10,
                     12
                   ],
                   "justifyContent": "space_between",
@@ -14188,27 +14143,29 @@
                   "children": [
                     {
                       "type": "text",
-                      "id": "ALUMN",
-                      "fill": "$text-secondary",
+                      "id": "6PCsd",
+                      "name": "total-label",
+                      "fill": "$text-primary",
                       "content": "合计",
                       "fontFamily": "Inter",
-                      "fontSize": 14,
-                      "fontWeight": "normal"
+                      "fontSize": 15,
+                      "fontWeight": "600"
                     },
                     {
                       "type": "text",
-                      "id": "d3ggx",
+                      "id": "rl7sn",
+                      "name": "total-price",
                       "fill": "$accent-amber",
-                      "content": "¥209",
+                      "content": "¥266",
                       "fontFamily": "Inter",
-                      "fontSize": 18,
+                      "fontSize": 16,
                       "fontWeight": "700"
                     }
                   ]
                 }
               ]
             }
-          ]
+          }
         }
       ]
     }
